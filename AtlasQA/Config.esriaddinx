@@ -1,0 +1,20 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>AtlasQA</Name>
+  <AddInID>{cd220052-dbad-4b00-9558-5250e744bf69}</AddInID>
+  <Description>Type in a description for this Add-in.</Description>
+  <Version>1.0</Version>
+  <Image>Images\AtlasQA_1.png</Image>
+  <Author>carlos.cano</Author>
+  <Company></Company>
+  <Date>18/07/2018</Date>
+  <Targets>
+    <Target name="Desktop" version="10.5" />
+  </Targets>
+  <AddIn language="CLR" library="AtlasQA.dll" namespace="AtlasQA">
+    <ArcMap>
+      <Commands>
+        <Button id="AtlasQA_AtlasQA" class="AtlasQA" message="Valida la calidad de los mapas del atlas de mercado de tierras" caption="AtlasQA" tip="Valida la calidad " category="Add-In Controls" image="Images\AtlasQA.png" />
+      </Commands>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
